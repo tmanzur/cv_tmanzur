@@ -184,8 +184,9 @@ h1 {
 .education-1{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #EDE8E0;
-    padding: 2rem;
+    padding: 1rem;
 }
 .education-2{
     background-color: #F7F3EE;
