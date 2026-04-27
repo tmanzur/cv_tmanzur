@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EDE8E0;
+    font-family: DM Sans, sans-serif;
+}
+
+/*Paleta de colores
+      Protagonistas
+      --vino:       #4B0F2C;
+      --vino-mid:   #6B1F3A;
+      --vino-pale:  #f4e8ed;
+      --azul:       #1B3A4B;
+      --azul-mid:   #2A5065;
+      --verde:      #1F4D3B;
+      --ciruela:    #3D1F5E;
+      --terracota:  #8B2500;
+      --esmeralda:  #0D7377;
+ 
+      Neutros
+      --negro:      #111111;
+      --chocolate:  #2C2420;
+      --pizarra:    #3E3A46;
+      --crema:      #D9CFC0;
+      --crema-pale: #F7F3EE;
+      --crema-soft: #EDE8E0;
+      --white:      #FDFBF8;
+*/
+
+.navbar-personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B0F2C;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-right: 2rem;
+}
+
+.nav-name {
+    font-family: Playfair Display, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    color: #D9CFC0;
+}
+
+.nav-name em {
+    color: #FDFBF8;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #EDE8E0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*About_me*/
+
+header {
+    background-color: #F7F3EE;
+    color: #2C2420;
+    padding: 2rem 1rem;
+}
+
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: start;
+    padding: 2rem;
+}
+
+.about_me_text {
+    flex: 1 1 400px;
+}
+
+.about_me_img {
+    flex: 0 1;
+}
+
+.contenedor-img {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Playfair Display, sans-serif;
+}
+
+.about_me_text em{
+    color: #4B0F2C;
+}
+
+.about_me h5 {
+    color: #4B0F2C;
+    padding-bottom: 1.5rem;
+}
+
+.about_me p {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+/*Experience*/
+
+.experience{
+    padding: 3rem;
+    color: #2C2420;
+}
+
+.experience h2{
+    font-family: Playfair Display, sans-serif;
+    text-decoration: underline;
+    padding-bottom: 1.5rem;
+}
+
+.experience h5{
+    padding-bottom: 1rem;
+}
+
+.experience li{
+    text-align: justify;
+    padding-bottom: 0.8rem;
+}
+
+.experience-1{
+    background-color: #F7F3EE;
+    padding: 1.5rem;
+}
+.company-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks{
+    padding: 1rem;
+}
+
+/*Education*/
+
+.education{
+    padding: 3rem;
+    color: #2C2420;
+    background-color: #F7F3EE;
+}
+
+.education h2{
+    font-family: Playfair Display, sans-serif;
+    text-decoration: underline;
+    padding-bottom: 1.5rem;
+}
+
+.education-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EDE8E0;
+    padding: 2rem;
+}
+.education-2{
+    background-color: #F7F3EE;
+    color: #2C2420;
+    padding: 1.5rem;
+    opacity: 80%;
+    width: 30rem;
+}
+.education-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: #4B0F2C;
+    color: #FDFBF8;
+}
